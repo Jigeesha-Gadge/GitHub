@@ -1,0 +1,8 @@
+{
+    "name":"Jigeesha",
+    "interest":"Java",
+    "pincode":380021,
+    "courses":["data structure","java","database"],
+    "address":{"area":"rakhiyal","city":"Ahmedabad"}
+    
+}

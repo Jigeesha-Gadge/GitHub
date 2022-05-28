@@ -1,0 +1,72 @@
+Git:  version control system
+git store's your all/multiple files history in it.
+git and github are both different , git is used with command where as github need a repository. 
+git is working on github.
+
+set user name and email:
+	git config --global user.name or user.email
+	
+for edit 
+	git config --global --edit 
+	
+make new directory 
+	mkdir name_of_the_folder
+	
+we make repository in git so we can track it using git
+make ant folder or above folder as git folder then command is
+	git init
+	my path is:/home/endloss/GitHub/.git/
+	
+ls: used to show folders in that directroy
+
+to create a file into git folder :
+	touch filename
+		
+for track your staging area
+or if someone modifie any file on git ist shows that modified filename.extension using below command
+	git status
+
+for add your file into staging area
+	git add filename with extension
+	git add . (for add all file into staging area.)
+
+for commit file itno git this -m represent the message and after -m in " " you write a meanigfull statment so whenever you git log commant run you see what is the mesage or commint previously done.
+	git commit -m "initial commit" 
+	
+show how many files are commit in git (previously how may peoples of you commint at where and when)
+	git log
+	
+go back on any commint 
+	git checkout commit hash code
+
+go back to your main midified file(latest fiel)
+	git checkout master
+	
+create a new branch
+	git branch branchname
+	
+git created one .gitignore file which containes the key , password type data.
+	touch .gitignore
+	
+show branch 
+	git branch
+__________________________________________________________________________________________________________________________________________________________________________________________________
+											Github
+anyfile which you post on github its post as on remote repository so from anywhere & every people can see that code on github.
+
+repo having two type either public or private.
+
+add repostiry 
+	git remote add origin https://github.com/Jigeesha-Gadge/GitHub.git
+	
+after above command you run below command to see which repo is now and where we are push and pull the code .
+	git remote -v
+	
+push command for github repository using git is
+	git branch -M main
+	git push -u origin main
+
+
+
+
+
